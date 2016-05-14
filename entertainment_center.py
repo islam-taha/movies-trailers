@@ -1,4 +1,4 @@
-import fresh_tomatoes.py
+import fresh_tomatoes
 import media
 
 toy_story = media.Movie("Toy Story", "A story of a boy and his toys that come to life", 
@@ -6,24 +6,24 @@ toy_story = media.Movie("Toy Story", "A story of a boy and his toys that come to
                         "https://www.youtube.com/watch?v=vwyZH85NQC4")
 
 avatar = media.Movie("Avatar", "A marine on an alien planet",
-                     "http://upload.wikimedia.org/wikipedia/en/id/b/b0/Avatar-Teaser-Poster.jpg",
-                     "https://www.youtube.com/watch?v=-9ceBgWV8io")
+                     "http://www.foxmovies.com/movies/avatar/download-poster/251",
+                     "https://www.youtube.com/watch?v=cRdxXPV9GNQ")
 
 school_of_rock = media.Movie("School of Rock", "Storyline", 
-                        "http://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
-                        "https://www.youtube.com/watch?v=3PsUJFEBC74")
+                             "http://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
+                             "https://www.youtube.com/watch?v=3PsUJFEBC74")
 
 another_avatar = media.Movie("Avatar", "A marine on an alien planet",
-                     "http://upload.wikimedia.org/wikipedia/en/id/b/b0/Avatar-Teaser-Poster.jpg",
-                     "https://www.youtube.com/watch?v=-9ceBgWV8io")
+                             "http://www.foxmovies.com/movies/avatar/download-poster/251",
+                             "https://www.youtube.com/watch?v=cRdxXPV9GNQ")
 
 toy_story_2 = media.Movie("Toy Story", "A story of a boy and his toys that come to life", 
-                        "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
-                        "https://www.youtube.com/watch?v=vwyZH85NQC4")
+                          "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
+                          "https://www.youtube.com/watch?v=vwyZH85NQC4")
 
 avatar_2 = media.Movie("Avatar", "A marine on an alien planet",
-                     "http://upload.wikimedia.org/wikipedia/en/id/b/b0/Avatar-Teaser-Poster.jpg",
-                     "https://www.youtube.com/watch?v=-9ceBgWV8io")
+                       "http://www.foxmovies.com/movies/avatar/download-poster/251",
+                       "https://www.youtube.com/watch?v=cRdxXPV9GNQ")
 
 
 movies = [toy_story, avatar, school_of_rock, another_avatar, toy_story_2, avatar_2]
