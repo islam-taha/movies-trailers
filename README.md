@@ -1,4 +1,4 @@
-***Full Stack nanodegree***
+***Full Stack nanodegree first Project (movies trailers)***
 
 In order to run this project you need python (2.7) at least.
 
